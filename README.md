@@ -92,41 +92,6 @@ This example shows the process of installing and configuring the Gemini Thinking
 ![Testing Mathematical Solver](images/2.png)
 A demonstration of the MCP server solving a mathematical equation step by step, showing its problem-solving capabilities.
 
-## Deployment to GitHub
-
-### Step by Step Guide
-
-1. Create a new GitHub repository:
-   - Go to [GitHub](https://github.com)
-   - Click the "+" icon in the top right
-   - Select "New repository"
-   - Name it "gemini-thinking-mcp"
-   - Choose visibility (public or private)
-   - Click "Create repository"
-
-2. Push your local code to GitHub:
-```bash
-# Initialize git if not already done
-git init
-
-# Add all files
-git add .
-
-# Commit your changes
-git commit -m "Initial commit"
-
-# Add the remote repository
-git remote add origin https://github.com/yourusername/gemini-thinking-mcp.git
-
-# Push to GitHub
-git push -u origin main
-```
-
-3. Verify your repository:
-   - Go to your GitHub repository
-   - Ensure all files are present
-   - Check that your secret API key is not committed (only in .env)
-
 ## Development
 
 ```bash
