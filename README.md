@@ -80,40 +80,6 @@ You can adjust the model parameters:
 - `max_tokens`: Maximum tokens to generate (default: 8192)
 - `temperature`: Controls randomness (default: 0.2)
 
-## Deployment to GitHub
-
-### Step by Step Guide
-
-1. Create a new GitHub repository:
-   - Go to [GitHub](https://github.com)
-   - Click the "+" icon in the top right
-   - Select "New repository"
-   - Name it "gemini-thinking-mcp"
-   - Choose visibility (public or private)
-   - Click "Create repository"
-
-2. Push your local code to GitHub:
-```bash
-# Initialize git if not already done
-git init
-
-# Add all files
-git add .
-
-# Commit your changes
-git commit -m "Initial commit"
-
-# Add the remote repository
-git remote add origin https://github.com/yourusername/gemini-thinking-mcp.git
-
-# Push to GitHub
-git push -u origin main
-```
-
-3. Verify your repository:
-   - Go to your GitHub repository
-   - Ensure all files are present
-   - Check that your secret API key is not committed (only in .env)
 
 ## Development
 
