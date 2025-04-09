@@ -62,7 +62,7 @@ class GeminiServer {
             async () => ({
                 tools: [{
                     name: "gemini-thinking",
-                    description: "Generate text using Gemini 1.5 Flash model",
+                    description: "Generate reasoning and action plan using gemini-2.0-flash-thinking-exp-01-21",
                     inputSchema: {
                         type: "object",
                         properties: {

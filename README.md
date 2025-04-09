@@ -1,10 +1,10 @@
 # Gemini Thinking MCP Server
 
-A Model Context Protocol (MCP) server implementation for the Google Gemini language model. This server allows Claude Desktop users to access the powerful reasoning capabilities of Gemini's 1.5 Flash model.
+A Model Context Protocol (MCP) server implementation for the Google Gemini language model. This server allows Claude Desktop users to access the powerful reasoning capabilities of Gemini-2.0-flash-thinking-exp-01-21 model.
 
 ## What is Gemini Flash?
 
-Gemini 1.5 Flash is a specialized version of Google's Gemini model that's optimized for fast responses while maintaining high quality. It excels at:
+Gemini-2.0-flash-thinking-exp-01-21 is a specialized version of Google's Gemini model that's optimized for fast responses while maintaining high quality. It excels at:
 
 - Mathematical reasoning
 - Logical deduction
@@ -79,6 +79,18 @@ You can adjust the model parameters:
 - `prompt`: Your input text for Gemini (required)
 - `max_tokens`: Maximum tokens to generate (default: 8192)
 - `temperature`: Controls randomness (default: 0.2)
+
+## Examples
+
+Here are some examples of the Gemini Thinking MCP server setup and usage:
+
+### Example 1: Installing MCP Server
+![MCP Server Installation](images/Screenshot%202025-04-09%20094525.png)
+This example shows the process of installing and configuring the Gemini Thinking MCP server in Claude Desktop environment.
+
+### Example 2: Testing Mathematical Problem Solving
+![Testing Mathematical Solver](images/Screenshot%202025-04-09%20094420.png)
+A demonstration of the MCP server solving a mathematical equation step by step, showing its problem-solving capabilities.
 
 ## Deployment to GitHub
 
