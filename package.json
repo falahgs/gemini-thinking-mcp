@@ -1,0 +1,28 @@
+{
+  "name": "gemini-thinking-mcp",
+  "version": "1.0.0",
+  "description": "MCP server implementation for Google Gemini 2.0 Flash Thinking model",
+  "type": "module",
+  "bin": {
+    "gemini-thinking": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "dev": "tsc --watch",
+    "start": "node build/index.js"
+  },
+  "keywords": ["mcp", "gemini", "google", "ai", "llm", "thinking", "flash"],
+  "author": "Kamel IRZOUNI",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}

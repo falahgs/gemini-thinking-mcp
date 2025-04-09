@@ -1,0 +1,57 @@
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "C:\\Users\\Max\\Desktop",
+                "G:\\mcp-projects"
+            ]
+        },
+        "brave-search": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-brave-search"
+            ],
+            "env": {
+                "BRAVE_API_KEY": "BSAzpp4l-TbJ0pizXWCRdZSSDcS2LYi"
+            }
+        },
+        "everart": {
+            "command": "npx",
+            "args": ["-y", "@modelcontextprotocol/server-everart"],
+            "env": {
+                "EVERART_API_KEY": "everart-YRCIKOCJ7d8uvQF_uyk3lUSpG05NW2gpEfa4Vnui1EI"
+            }
+        },
+        "weather": {
+            "command": "node",
+            "args": [
+                "G:\\mcp01-server\\dist\\weatherServer.js"
+            ]
+        },
+        "fetch": {
+            "command": "node",
+            "args": [
+                "G:\\fetch-mcp\\dist\\index.js"
+            ]
+        },
+        "google-thinking": {
+            "command": "node",
+            "args": ["G:\\MCP02\\dist\\index.js"],
+            "env": {
+                "GEMINI_API_KEY": "AIzaSyCaUcqfr7xA9jQxe5nfL7m0cP4PPng_E_4"
+            }
+        },
+        "gemini-thinking": {
+            "command": "node",
+            "args": ["G:\\MCP-server-Deepseek_R1\\build\\index.js"],
+            "env": {
+                "GEMINI_API_KEY": "AIzaSyCaUcqfr7xA9jQxe5nfL7m0cP4PPng_E_4"
+            }
+        }
+    }
+}
+ 
