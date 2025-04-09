@@ -85,11 +85,11 @@ You can adjust the model parameters:
 Here are some examples of the Gemini Thinking MCP server setup and usage:
 
 ### Example 1: Installing MCP Server
-![MCP Server Installation](images/Screenshot%202025-04-09%20094525.png)
+![MCP Server Installation](images/1.png)
 This example shows the process of installing and configuring the Gemini Thinking MCP server in Claude Desktop environment.
 
 ### Example 2: Testing Mathematical Problem Solving
-![Testing Mathematical Solver](images/Screenshot%202025-04-09%20094420.png)
+![Testing Mathematical Solver](images/2.png)
 A demonstration of the MCP server solving a mathematical equation step by step, showing its problem-solving capabilities.
 
 ## Deployment to GitHub
