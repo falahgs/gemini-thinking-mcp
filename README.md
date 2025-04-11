@@ -1,4 +1,5 @@
 # Gemini Thinking MCP Server
+[![smithery badge](https://smithery.ai/badge/@falahgs/gemini-thinking-mcp)](https://smithery.ai/server/@falahgs/gemini-thinking-mcp)
 
 A Model Context Protocol (MCP) server implementation for the Google Gemini language model. This server allows Claude Desktop users to access the powerful reasoning capabilities of Gemini-2.0-flash-thinking-exp-01-21 model.
 
@@ -12,6 +13,14 @@ Gemini-2.0-flash-thinking-exp-01-21 is a specialized version of Google's Gemini 
 - Structured thinking
 
 ## Installation
+
+### Installing via Smithery
+
+To install gemini-thinking-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@falahgs/gemini-thinking-mcp):
+
+```bash
+npx -y @smithery/cli install @falahgs/gemini-thinking-mcp --client claude
+```
 
 ### Prerequisites
 
